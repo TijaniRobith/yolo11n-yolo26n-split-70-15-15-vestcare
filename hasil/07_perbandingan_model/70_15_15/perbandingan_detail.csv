@@ -1,0 +1,3 @@
+mode,model,seed,status,epoch_target,waktu_latih_menit,params_juta,ukuran_bobot_mb,ms_inferensi_per_gambar,map50_val,map50_95_val,map50_test,map50_95_test,map50_test_robustness,map50_95_test_robustness,folder_run,pesan_error
+seg,yolo11n,0,ok,100,18.2,2.859,5.73,5.12,0.5298661747608765,0.29223661067420165,0.5667910795780409,0.30005014946356806,,,D:\laragon\www\vestcare-dataset\hasil\07_perbandingan_model\70_15_15\seg\yolo11n_seed0,
+seg,yolo26n,0,ok,100,17.7,3.085,6.28,4.17,0.5291129125164024,0.2850887557362389,0.5991035385796942,0.3213895806158367,,,D:\laragon\www\vestcare-dataset\hasil\07_perbandingan_model\70_15_15\seg\yolo26n_seed0,

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+_eval/
+# bobot: hanya best.pt hasil run yang disertakan
+*.pt
+!hasil/**/weights/best.pt
+# dataset tidak disertakan (lihat README)
+hasil/06_dataset_yolo26_70_15_15/

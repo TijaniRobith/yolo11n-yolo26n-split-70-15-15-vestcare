@@ -1,0 +1,3 @@
+mode,model,n_seed,map50_95_test_rata,map50_95_test_std,map50_95_val_rata,map50_95_val_std,map50_test_rata,map50_test_std,map50_val_rata,map50_val_std,ms_inferensi_per_gambar_rata,ms_inferensi_per_gambar_std,params_juta_rata,params_juta_std,ukuran_bobot_mb_rata,ukuran_bobot_mb_std,waktu_latih_menit_rata,waktu_latih_menit_std
+seg,yolo11n,1,0.3001,0.0,0.2922,0.0,0.5668,0.0,0.5299,0.0,5.12,0.0,2.859,0.0,5.73,0.0,18.2,0.0
+seg,yolo26n,1,0.3214,0.0,0.2851,0.0,0.5991,0.0,0.5291,0.0,4.17,0.0,3.085,0.0,6.28,0.0,17.7,0.0

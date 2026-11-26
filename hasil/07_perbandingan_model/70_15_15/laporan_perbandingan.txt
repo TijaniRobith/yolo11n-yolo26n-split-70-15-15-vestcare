@@ -1,0 +1,75 @@
+======================================================================
+LAPORAN PERBANDINGAN YOLO11n-seg vs YOLO26n-seg (split 70:15:15)
+Dibuat      : 2026-11-26 16:46
+Folder run  : D:\laragon\www\perbandingan_YOLOV11N&V26N_Split70-10-10\hasil\07_perbandingan_model\70_15_15\seg
+Dataset     : D:\laragon\www\perbandingan_YOLOV11N&V26N_Split70-10-10\hasil\06_dataset_yolo26_70_15_15\seg\data.yaml
+imgsz/batch : 416 / 16
+======================================================================
+
+----------------------------------------------------------------------
+MODEL yolo11n-seg  | jumlah run (seed): 1
+  yolo11n_seed0: epoch efektif 54, epoch terbaik 34, waktu latih 0.295 jam
+
+[TEST] rata-rata 1 run (± simpangan baku)
+  mask P 0.6263 | R 0.5906 | F1 0.6079 | mAP50 0.5668±0.0000 | mAP50-95 0.3001±0.0000
+  box  P 0.6834 | R 0.6464 | F1 0.6644 | mAP50 0.6454±0.0000 | mAP50-95 0.3777±0.0000
+  Kecepatan: 10.60 ms inferensi (+2.96 pre, +10.74 post) per gambar
+  Parameter: 2.85 juta | 4.08 GFLOPs (fused)
+  Per kelas (mask | box):  P / R / mAP50 / mAP50-95
+    pohon   0.849/0.893/0.889/0.570  |  0.884/0.929/0.925/0.629
+    lubang  0.402/0.218/0.226/0.101  |  0.403/0.218/0.210/0.106
+    orang   0.569/0.462/0.422/0.211  |  0.618/0.500/0.496/0.222
+    motor   0.615/0.630/0.548/0.243  |  0.786/0.804/0.803/0.436
+    mobil   0.695/0.750/0.748/0.375  |  0.726/0.781/0.794/0.496
+
+[VAL] rata-rata 1 run (± simpangan baku)
+  mask P 0.5826 | R 0.5311 | F1 0.5557 | mAP50 0.5299±0.0000 | mAP50-95 0.2922±0.0000
+  box  P 0.5928 | R 0.6432 | F1 0.6170 | mAP50 0.6190±0.0000 | mAP50-95 0.3842±0.0000
+  Kecepatan: 9.79 ms inferensi (+1.26 pre, +2.25 post) per gambar
+  Parameter: 2.85 juta | 4.08 GFLOPs (fused)
+  Per kelas (mask | box):  P / R / mAP50 / mAP50-95
+    pohon   0.857/0.786/0.825/0.530  |  0.830/0.873/0.903/0.603
+    lubang  0.422/0.200/0.262/0.086  |  0.380/0.311/0.304/0.129
+    orang   0.250/0.242/0.169/0.085  |  0.346/0.424/0.267/0.139
+    motor   0.700/0.682/0.654/0.411  |  0.772/0.795/0.811/0.529
+    mobil   0.684/0.746/0.740/0.348  |  0.636/0.812/0.810/0.520
+
+----------------------------------------------------------------------
+MODEL yolo26n-seg  | jumlah run (seed): 1
+  yolo26n_seed0: epoch efektif 37, epoch terbaik 17, waktu latih 0.292 jam
+
+[TEST] rata-rata 1 run (± simpangan baku)
+  mask P 0.7585 | R 0.5487 | F1 0.6368 | mAP50 0.5991±0.0000 | mAP50-95 0.3214±0.0000
+  box  P 0.6121 | R 0.7446 | F1 0.6719 | mAP50 0.6686±0.0000 | mAP50-95 0.3896±0.0000
+  Kecepatan: 5.03 ms inferensi (+0.72 pre, +2.60 post) per gambar
+  Parameter: 2.705 juta | 3.84 GFLOPs (fused)
+  Per kelas (mask | box):  P / R / mAP50 / mAP50-95
+    pohon   0.958/0.893/0.943/0.575  |  0.907/0.929/0.937/0.597
+    lubang  0.775/0.179/0.310/0.129  |  0.447/0.462/0.323/0.145
+    orang   0.530/0.385/0.416/0.229  |  0.353/0.673/0.480/0.231
+    motor   0.708/0.630/0.607/0.306  |  0.728/0.848/0.811/0.490
+    mobil   0.822/0.656/0.720/0.368  |  0.624/0.812/0.792/0.486
+
+[VAL] rata-rata 1 run (± simpangan baku)
+  mask P 0.6022 | R 0.5361 | F1 0.5673 | mAP50 0.5291±0.0000 | mAP50-95 0.2851±0.0000
+  box  P 0.6726 | R 0.6070 | F1 0.6381 | mAP50 0.6188±0.0000 | mAP50-95 0.3640±0.0000
+  Kecepatan: 7.30 ms inferensi (+0.79 pre, +2.38 post) per gambar
+  Parameter: 2.705 juta | 3.84 GFLOPs (fused)
+  Per kelas (mask | box):  P / R / mAP50 / mAP50-95
+    pohon   0.861/0.786/0.852/0.536  |  0.899/0.821/0.865/0.579
+    lubang  0.527/0.222/0.287/0.117  |  0.563/0.243/0.312/0.134
+    orang   0.312/0.303/0.186/0.067  |  0.401/0.394/0.321/0.117
+    motor   0.668/0.682/0.647/0.410  |  0.777/0.795/0.787/0.537
+    mobil   0.644/0.688/0.674/0.296  |  0.724/0.781/0.808/0.453
+
+======================================================================
+SELISIH (yolo26n - yolo11n), nilai + berarti yolo26n lebih tinggi
+  test mask mAP50    : +0.0323
+  test mask mAP50-95 : +0.0213
+  test box  mAP50    : +0.0232
+  test box  mAP50-95 : +0.0119
+  val  mask mAP50    : -0.0008
+  val  mask mAP50-95 : -0.0071
+  val  box  mAP50    : -0.0003
+  val  box  mAP50-95 : -0.0202
+Catatan: selisih kecil dengan sedikit seed belum cukup untuk klaim tegas.
